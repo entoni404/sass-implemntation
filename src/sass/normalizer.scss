@@ -1,0 +1,56 @@
+@use  "../sass/variables";
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  border: 0 solid;
+}
+html {
+  tab-size: 4;
+}
+
+body,
+header,
+main,
+section,
+footer,
+strong,
+span,
+ul,
+li,
+img,
+svg,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+button,
+div {
+  margin: 0;
+  padding: 0;
+  font-family: variables.$font-family;
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 1.1rem;
+}
+body {
+  overflow-x: hidden;
+}
+
+button {
+  background: transparent;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}

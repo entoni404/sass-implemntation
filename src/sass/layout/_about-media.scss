@@ -1,0 +1,58 @@
+.about-media {
+  margin-bottom: 8.33333vw;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50vw;
+
+  .why-ableton_video {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+
+    &::after {
+      content: "";
+      background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiIHdpZHRoPSI1MHB4IiBoZWlnaHQ9IjUwcHgiIHZpZXdCb3g9IjAgMCA1MCA1MCIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgNTAgNTAiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxnPjxjaXJjbGUgZmlsbD0iIzAwMzNGRiIgY3g9IjI1IiBjeT0iMjUiIHI9IjI1Ii8+PHBvbHlnb24gZmlsbD0iI0ZGRkZGRiIgcG9pbnRzPSIzNSwyNSAyNywyOS41IDE5LDM0IDE5LDI1IDE5LDE2IDI3LDIwLjUgIi8+PC9nPjwvc3ZnPg==);
+      background-repeat: no-repeat;
+      background-size: 100px 100px;
+      background-position: center center;
+
+      position: absolute;
+      transform: translateY(-50%) translateX(-50%);
+      top: 50%;
+      left: 50%;
+
+      width: 100px;
+      height: 100px;
+
+      z-index: 20;
+    }
+
+    .youtube-video_img {
+      z-index: 10;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      pointer-events: none;
+    }
+  }
+  p {
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+  }
+}
+
+.about-media_large {
+  width: 70rem;
+  .large-img {
+    background-image: url(https://ableton-production.imgix.net/about/poster-meet-the-makers.jpg?auto=format);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    max-width: 100%;
+    height: 36rem;
+    margin-right: 6rem;
+  }
+}
